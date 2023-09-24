@@ -1,7 +1,7 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
 <%
   // セッションの有効期限設定
-  session.setMaxInactiveInterval(60 * 3);
+  session.setMaxInactiveInterval(180);
   String logout = (String)request.getParameter("logout");
   String message = null;
   
